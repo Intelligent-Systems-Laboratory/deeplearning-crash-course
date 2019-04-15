@@ -67,6 +67,9 @@ Thus, these materials are organized for you to get more comfortable for solving 
 
 #### Exercise: 
 
+| Description | Lists | Tasks |
+| ------------| ----- | ----- |
+| Python		 |
 
 
 
