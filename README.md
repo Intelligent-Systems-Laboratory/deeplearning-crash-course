@@ -67,10 +67,21 @@ Thus, these materials are organized for you to get more comfortable for solving 
 
 #### Exercise: 
 
-| Description | Lists | Tasks |
-| ------------| ----- | ----- |
-| Python		 |
+Get your thesis group, complete at least *n* exercises where n is the number of group members
 
+Here are some quicklinks: 
+
+##### Data Analysis:
+Ex.1: [US_Baby Names](exercises/US_Baby_Names/Exercises.ipynb)   
+Ex.2: [Online Retail](exercises/Online_Retail/Exercises.ipynb)    
+Ex.3: [Apple Stock](exercises/Apple_Stock/Exercises.ipynb)   
+
+
+##### Mastering Python:
+Ex.4: [Functions](exercises/Exercises_A.ipynb)   
+Ex.5: [Data Structure](exercises/Exercises_B.ipynb)   
+Ex.6: [Numpy](exercises/Exercises_C.ipynb)   
+Ex.7: [Plotting](exercises/Exercises_D.ipynb)   
 
 
 
