@@ -21,6 +21,47 @@ In corollary to this, as most of the best materials are in text format. This cou
 ### A. Prerequisites:   
 1. Day 0   
 2. Prior Readings: Bash Script
+3. Installed the ff:
+    - git
+    - anaconda
+
+
+Open your terminal, afterwards you should see something like this
+![terminal-0](assets/terminal0.png)
+
+If you haven't please follow the ff:
+
+#### For MacOS, 
+1. copy and paste below into your terminal to install Homebrew:
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+2. afterwards, type the ff to install necessary packages:
+```bash
+$ brew install git wget hub
+```
+3. Download Anaconda
+```bash
+$ wget https://repo.anaconda.com/archive/Anaconda3-2019.03-MacOSX-x86_64.sh -O ~/anaconda.sh
+```
+4. Install Anaconda and follow the prompt
+```bash
+$ bash ~/anaconda.sh
+```
+
+#### For Ubuntu/Windows Subsystem
+1. Install the necessary packages, type your password if prompted:
+```bash
+$ sudo apt install -y git wget hub
+```
+2. Download Anaconda
+```bash
+$ wget https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh -O ~/anaconda.sh
+```
+3. Install Anaconda and follow the prompt
+```bash
+$ bash ~/anaconda.sh
+```
 
 
 ### B. 10am - 1pm: Intro to Python and its Data Science Toolpack
@@ -35,13 +76,6 @@ Expected Outcome:
 
 
 #### Gettings Started
-Open your terminal, afterwards you should see something like this
-![terminal-0](assets/terminal0.png)
-
-Pre-requisites:    
-This repo assumes you have the ff package:   
-- git   
-- Anaconda   
 
 
 #### Tutorials: Basic Python and Data Science
