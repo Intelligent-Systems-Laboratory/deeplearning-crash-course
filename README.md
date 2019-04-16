@@ -151,37 +151,3 @@ Thus, these set of materials below are organized for you to get you more comfort
 | [Conditional Statements](basic/02%20Control%20statements.ipynb)   | [Data Structure](basic/B5%20Data%20structures.ipynb) | [Pandas](basic/B7%20Pandas.ipynb) |
 | [Loop Statements](basic/B3%20Loop%20Statement.ipynb)              |                                                      |                                   |
 
-## D. 2pm - 5pm: Your First Data Science Project
-Expected Outcome:    
-- Implement your own project    
-- recognize the importance of Feature Selection and Engineering    
-- Know the lifecycle of Machine Learning Projects   
-
-Congratulations on surviving your morning exercise!!
-
-Basically, at this stage, we would now focus ourselves on crafting our newly found skils.
-
-Before we start, I just want to let you know that the most efficient way to learn is by studying a lot of examples, learning from others, and experimenting on our own. It's not about having formal studies or what. It's really about getting more hands-on as fast as possible. This is the reason why this workshop is called a crash course!!
-
-For Data science, based on my experience, the best avenue is from the Website called [Kaggle](https://www.kaggle.com/)
-
-So for this afternoon,    
-**your mission is to submit *n* entries in a kaggle competition**    
-where n is the number of members in your group
-
-Step 1. choose one of the ff competitions:
-
-Less Comfortable (simpler, classify into 1 or 0):    
-[Titanic Dataset](https://www.kaggle.com/c/titanic)
-
-More comfortable (harder, predict prices):   
-[Housing Prices](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
-
-Step 2. Sign Up in Kaggle
-
-Step 3. Browse and Study Examples.   
-It's either by:
--  clicking Overview > Tutorials; or
--  Kernels > (some high rating notebooks)
-
-Step 4. Enjoy
