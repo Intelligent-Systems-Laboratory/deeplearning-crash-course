@@ -1,5 +1,34 @@
 # deeplearning-crash-course
 
+# Opening your terminal
+
+#### For MacOS and Ubuntu, 
+
+1. Open your search bar, and type terminal. Afterwards, you should see something like this
+![terminal-0](assets/terminal0.png)
+
+2. Type the ff:
+```bash
+$cd ~/Desktop
+$pwd
+/Users/your-unix-name/Desktop
+```
+
+### For Windows Subsystem for Linux
+
+1. Click windows button, type and open Your Command prompt. You should something like this
+```cmd
+C:\Users\YourUsername>
+```
+
+
+2. type the ff to enter `Bash`:
+```cmd
+C:\Users\YourUsername>cd Desktop
+C:\Users\YourUsername\Desktop>bash
+username@PC:/mnt/C/Users/YourUsername/Desktop$
+```
+
 # Install Pre-requisites Packages
 We need to have the ff packages:
 1. git
@@ -7,10 +36,7 @@ We need to have the ff packages:
 3. wget
 4. anaconda
 
-Open your terminal, 
 
-afterwards you should see something like this
-![terminal-0](assets/terminal0.png)
 
 #### For MacOS, 
 1. copy and paste below into your terminal to install **Homebrew**:
@@ -54,7 +80,7 @@ conda 4.6.12
 # Getting started
 This instruction comes from [github help](https://help.github.com/en/articles/fork-a-repo)
 
-1. Sign up for [github account](https://github.com)
+1. Sign up for [github account](https://github.com) then sign in
 
 ![Github](assets/github-signup.png)
 
