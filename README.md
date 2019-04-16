@@ -1,10 +1,58 @@
 # deeplearning-crash-course
 
-# Instructions
-This instruction comes from [github help](https://help.github.com/en/articles/fork-a-repo)
+# Install Pre-requisites Packages
+We need to have the ff packages:
+1. git
+2. hub
+3. wget
+4. anaconda
+
+Open your terminal, 
+
+afterwards you should see something like this
+![terminal-0](assets/terminal0.png)
+
+#### For MacOS, 
+1. copy and paste below into your terminal to install **Homebrew**:
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+2. afterwards, type the ff to install necessary packages:
+```bash
+$brew install git wget hub
+```
+3. Download Anaconda (if you haven't installed anaconda)
+```bash
+$wget https://repo.anaconda.com/archive/Anaconda3-2019.03-MacOSX-x86_64.sh -O ~/anaconda.sh
+```
+4. Install Anaconda and follow the prompt
+```bash
+$bash ~/anaconda.sh
+```
+
+#### For Ubuntu/Windows Subsystem
+1. Install the necessary packages. Type your password if prompted:
+```bash
+$sudo apt install -y git wget hub
+```
+2. Download Anaconda (if you haven't installed anaconda)
+```bash
+$wget https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh -O ~/anaconda.sh
+```
+3. Install Anaconda. follow the prompt. Choose default location
+```bash
+$bash ~/anaconda.sh
+```
+
+4. Verify Anaconda. When you type `conda --version` you should see your version
+```bash
+$conda --version
+conda 4.6.12
+```
 
 
 # Getting started
+This instruction comes from [github help](https://help.github.com/en/articles/fork-a-repo)
 
 1. Sign up for [github account](https://github.com)
 
