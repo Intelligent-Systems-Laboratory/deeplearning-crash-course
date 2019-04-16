@@ -1,0 +1,26 @@
+name: deeplearning
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - h5py
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - pillow
+  - pip
+  - pytables
+  - python=3.6
+  - pytorch
+  - torchvision
+  - quandl
+  - requests
+  - scipy
+  - tensorflow
+  - pip:
+    - jupyterlab-latex
+    - sqlalchemy
