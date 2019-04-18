@@ -39,3 +39,54 @@ So, I just want to let you know:
 **"Welcome to the world of software development... where every thing is complicated!"**
 
 **Carpe Diem!!**
+
+## Day 1 Homework and Day 2 Readings
+
+Objective:  understand more concepts learned in day 1
+### Getting Started
+
+### Day 1 Homework
+You have two options here.
+#### Option 1: Submit to other Competition. (more comfortable, harder)
+- If you chose Titanic, submit an entry to Housing Price Dataset
+
+#### Option 2: Improve your score to the competition you chose (less comfortable, simpler)
+- Get at least 1% gain in your current score, that's already okay.
+
+#### Option 3: Finish all Day 1 Morning Exercise (simplest)
+-  Just try to finish all Data Analysis Day 1 Morning Exercise
+
+##### Additional Reference:
+[Data Science Summary](https://github.com/ShuaiW/data-science-question-answer#statistics-and-ml-in-general) - I like this one as it summarizes everything you need to know
+
+### Day 2 Readings
+#### Read Chapter 1 and 2 on Hands-on Machine Learning by Auréllien Géron
+![geron](https://images-na.ssl-images-amazon.com/images/I/511IU--e4%2BL._SX258_BO1,204,203,200_.jpg)
+
+Note: This book has hands-on notebook you can fiddle with:   
+Chapter 1 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ageron/handson-ml/blob/master/01_the_machine_learning_landscape.ipynb)
+
+Chapter 2 - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ageron/handson-ml/blob/master/02_end_to_end_machine_learning_project.ipynb)
+
+Tip: You can use our `deeplearning` environment in jupyterlab to run all his codes.
+
+For convenience, you can [click here for a copy](https://drive.google.com/drive/folders/15angXfk0k3Q0k_ae4VBddBRkl5cExPTS?usp=sharing).
+
+#### Watch ThreeBlueOneBrown, four episodes
+
+[Episode 1: What is a neural Network](https://youtu.be/aircAruvnKk)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aircAruvnKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Episode 2: Gradient Descent](https://www.youtube.com/watch?v=IHZwWFHWa-w&list=PLLMP7TazTxHrgVk7w1EKpLBIDoC50QrPS&index=2)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IHZwWFHWa-w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Episode 3: Backpropagation](https://youtu.be/Ilg3gGewQ5U)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ilg3gGewQ5U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Episode 4: Backpropagation Calculus](https://youtu.be/tIeHLnjs5U8)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tIeHLnjs5U8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## Old Reference
+### [Day 1: Data Science and Data Manipulation using Python](day-1/README.md)
