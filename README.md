@@ -60,8 +60,10 @@ You have two options here.
 [Data Science Summary](https://github.com/ShuaiW/data-science-question-answer#statistics-and-ml-in-general) - I like this one as it summarizes everything you need to know
 
 ### Day 2 Readings
-#### Read Chapter 1 and 2 on Hands-on Machine Learning by Auréllien Géron
-![geron](https://images-na.ssl-images-amazon.com/images/I/511IU--e4%2BL._SX258_BO1,204,203,200_.jpg)
+#### Read Chapter 1 and 2 on [Hands-on Machine Learning by Auréllien Géron](https://drive.google.com/drive/folders/15angXfk0k3Q0k_ae4VBddBRkl5cExPTS?usp=sharing)
+[![geron](https://images-na.ssl-images-amazon.com/images/I/511IU--e4%2BL._SX258_BO1,204,203,200_.jpg)]((https://drive.google.com/drive/folders/15angXfk0k3Q0k_ae4VBddBRkl5cExPTS?usp=sharing))
+- For convenience, you can [click here for a copy](https://drive.google.com/drive/folders/15angXfk0k3Q0k_ae4VBddBRkl5cExPTS?usp=sharing)
+
 
 Note: This book has hands-on notebook you can fiddle with:   
 
@@ -82,7 +84,7 @@ Tip: You can use our `deeplearning` environment in jupyterlab to run all his cod
     Hardware Accelerator: TPU   
 
 
-For convenience, you can [click here for a copy](https://drive.google.com/drive/folders/15angXfk0k3Q0k_ae4VBddBRkl5cExPTS?usp=sharing).
+
 
 #### Watch ThreeBlueOneBrown in youtube, four episodes
 - Click on the images/links below so that you can watch it.
