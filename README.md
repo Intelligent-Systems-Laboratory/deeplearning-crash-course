@@ -72,20 +72,19 @@ Tip: You can use our `deeplearning` environment in jupyterlab to run all his cod
 
 For convenience, you can [click here for a copy](https://drive.google.com/drive/folders/15angXfk0k3Q0k_ae4VBddBRkl5cExPTS?usp=sharing).
 
-#### Watch ThreeBlueOneBrown, four episodes
+#### Watch ThreeBlueOneBrown in youtube, four episodes
 
-[Episode 1: What is a neural Network](https://youtu.be/aircAruvnKk)
+[Episode 1: What is a neural Network](https://youtu.be/aircAruvnKk)    
+[![](http://img.youtube.com/vi/aircAruvnKk/0.jpg)](http://www.youtube.com/watch?v=aircAruvnKk "")
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aircAruvnKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Episode 2: Gradient Descent](https://youtu.be/IHZwWFHWa-w)    
+[![](http://img.youtube.com/vi/IHZwWFHWa-w/0.jpg)](http://www.youtube.com/watch?v=IHZwWFHWa-w "")
 
-[Episode 2: Gradient Descent](https://www.youtube.com/watch?v=IHZwWFHWa-w&list=PLLMP7TazTxHrgVk7w1EKpLBIDoC50QrPS&index=2)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IHZwWFHWa-w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Episode 3: Backpropagation](https://youtu.be/Ilg3gGewQ5U)   
+[![](http://img.youtube.com/vi/Ilg3gGewQ5U/0.jpg)](http://www.youtube.com/watch?v=Ilg3gGewQ5U "")    
 
-[Episode 3: Backpropagation](https://youtu.be/Ilg3gGewQ5U)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ilg3gGewQ5U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[Episode 4: Backpropagation Calculus](https://youtu.be/tIeHLnjs5U8)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tIeHLnjs5U8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Episode 4: Backpropagation Calculus](https://youtu.be/tIeHLnjs5U8)    
+[![](http://img.youtube.com/vi/tIeHLnjs5U8/0.jpg)](http://www.youtube.com/watch?v=tIeHLnjs5U8 "")    
 
 
 ## Old Reference
