@@ -103,7 +103,7 @@ Thus, these set of materials below are organized for you to get you more comfort
 | Basic                                                             | Intermediate                                         | Libraries                         |
 | ----------------------------------------------------------------- | ---------------------------------------------------- | --------------------------------- |
 | [Input and Output](basic/B1%20Input%20Output.ipynb)               | [Functions](basic/B4%20Functions.ipynb)              | [Numpy](basic/B6%20Numpy.ipynb)   |
-| [Conditional Statements](basic/02%20Control%20statements.ipynb)   | [Data Structure](basic/B5%20Data%20structures.ipynb) | [Pandas](basic/B7%20Pandas.ipynb) |
+| [Conditional Statements](basic/B2%20If%20Else.ipynb)   | [Data Structure](basic/B5%20Data%20structures.ipynb) | [Pandas](basic/B7%20Pandas.ipynb) |
 | [Loop Statements](basic/B3%20Loop%20Statement.ipynb)              |                                                      |                                   |
 
 ## D. 2pm - 5pm: Your First Data Science Project
