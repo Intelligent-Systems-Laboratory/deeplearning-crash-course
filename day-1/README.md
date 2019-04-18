@@ -51,7 +51,7 @@ $sudo apt-get install -y git wget
 ```bash
 $wget https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh -O ~/anaconda.sh
 $bash ~/anaconda.sh
-
+```
 ## B. Gettings Started
 
 1. Go inside your repository 
