@@ -40,67 +40,37 @@ So, I just want to let you know:
 
 **Carpe Diem!!**
 
-## Day 1 Homework and Day 2 Readings
+## Day 2 - Machine Learning and Neural Networks
 
-Objective:  understand more concepts learned in day 1
-### Getting Started
+### Recap of Reading List:
 
-### Day 1 Homework
-You have two options here.
-#### Option 1: Submit to other Competition. (more comfortable, harder)
-- If you chose Titanic, submit an entry to Housing Price Dataset
+Let's have a brief exercise.  Click the link below:    
+[Reading Exercise](https://docs.google.com/document/d/1aJrqm4d6oKwl1sIBSjnBMf2bspy99bYt53szzGQHBfE/edit?usp=sharing)
 
-#### Option 2: Improve your score to the competition you chose (less comfortable, simpler)
-- Get at least 1% gain in your current score, that's already okay.
+### Machine Learning Big Picture
+Now that we have fresh slate of the concepts. Let's go slightly deeper. We start off by focusing first on the big picture:
 
-#### Option 3: Finish all Day 1 Morning Exercise (simplest)
--  Just try to finish all Data Analysis Day 1 Morning Exercise
-
-##### Additional Reference:
-[Data Science Summary](https://github.com/ShuaiW/data-science-question-answer#statistics-and-ml-in-general) - I like this one as it summarizes everything you need to know
-
-### Day 2 Readings
-#### Read Chapter 1 and 2 on [Hands-on Machine Learning by Auréllien Géron](https://drive.google.com/drive/folders/15angXfk0k3Q0k_ae4VBddBRkl5cExPTS?usp=sharing)
-[![geron](https://images-na.ssl-images-amazon.com/images/I/511IU--e4%2BL._SX258_BO1,204,203,200_.jpg)]((https://drive.google.com/drive/folders/15angXfk0k3Q0k_ae4VBddBRkl5cExPTS?usp=sharing))
-- For convenience, you can [click here for a copy](https://drive.google.com/drive/folders/15angXfk0k3Q0k_ae4VBddBRkl5cExPTS?usp=sharing)
+1. Click on the link below:    
+[Machine Learning Playground](http://ml-playground.com/#)
 
 
-Note: This book has hands-on notebook you can fiddle with:   
+2. Try to play around to understand the different capabilities of different models. 
+If you don't know how to start. You can use our four sample dataset as seen in our folder ml-playground-sample-data as enumerated below:    
+    a.  simple data   
+    b.  circular data   
+    c.  spiral data   
+    d.  xor data 
 
-[Chapter 1 The Machine Learning Landscape](./01_the_machine_learning_landscape.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ageron/handson-ml/blob/master/01_the_machine_learning_landscape.ipynb)
+### Machine Learning End-to-End Cycle
+In Day 1, we started off to get familiar with Machine Learning from start to finish with the help of looking other people's work. This is done thru kaggle.
+For today, given your newly equipped concepts and skills. Let's try to look at an end-to-end ML Project again.
 
-[Chapter 2 End to End Machine Learning Project](./02_end_to_end_machine_learning_project.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ageron/handson-ml/blob/master/02_end_to_end_machine_learning_project.ipynb)
-
-Tip: You can use our `deeplearning` environment in jupyterlab to run all his codes.
-
-#### New Feature: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb) 
-
-1. If you haven't setup your laptop. You can click on [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb) beside each exercise so that you won't have to setup anything. Colab is a free cloud-based Jupyter notebook sponsored by Google.
-
-2. Afterwards, Click File > Save a copy in Drive. So that you can edit and run it, and it is automatically saved in your Google Drive > My Drive > Colab Notebook
-
-3. Lastly, Change/Verify your Runtime. Click Runtime > Change Runtime Type. It should have the ff:   
-    Runtime Type: Python 3   
-    Hardware Accelerator: TPU   
+[01 Housing Price Project](01_regression.ipynb)
 
 
 
 
-#### Watch ThreeBlueOneBrown in youtube, four episodes
-- Click on the images/links below so that you can watch it.
-
-[Episode 1: What is a neural Network](https://youtu.be/aircAruvnKk)    
-[![](http://img.youtube.com/vi/aircAruvnKk/0.jpg)](http://www.youtube.com/watch?v=aircAruvnKk "")
-
-[Episode 2: Gradient Descent](https://youtu.be/IHZwWFHWa-w)    
-[![](http://img.youtube.com/vi/IHZwWFHWa-w/0.jpg)](http://www.youtube.com/watch?v=IHZwWFHWa-w "")
-
-[Episode 3: Backpropagation](https://youtu.be/Ilg3gGewQ5U)   
-[![](http://img.youtube.com/vi/Ilg3gGewQ5U/0.jpg)](http://www.youtube.com/watch?v=Ilg3gGewQ5U "")    
-
-[Episode 4: Backpropagation Calculus](https://youtu.be/tIeHLnjs5U8)    
-[![](http://img.youtube.com/vi/tIeHLnjs5U8/0.jpg)](http://www.youtube.com/watch?v=tIeHLnjs5U8 "")    
-
+1. What is the neural network 
 
 ## Old Reference
 ### [Day 1: Data Science and Data Manipulation using Python](day-1/README.md)

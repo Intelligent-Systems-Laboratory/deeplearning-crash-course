@@ -140,3 +140,62 @@ It's either by:
 -  Kernels > (some high rating notebooks)
 
 Step 4. Enjoy
+
+## E. Day 1 Homework and Day 2 Readings
+
+Objective:  understand more concepts learned in day 1
+### Getting Started
+
+### Day 1 Homework
+You have two options here.
+#### Option 1: Submit to other Competition. (more comfortable, harder)
+- If you chose Titanic, submit an entry to Housing Price Dataset
+
+#### Option 2: Improve your score to the competition you chose (less comfortable, simpler)
+- Get at least 1% gain in your current score, that's already okay.
+
+#### Option 3: Finish all Day 1 Morning Exercise (simplest)
+-  Just try to finish all Data Analysis Day 1 Morning Exercise
+
+##### Additional Reference:
+[Data Science Summary](https://github.com/ShuaiW/data-science-question-answer#statistics-and-ml-in-general) - I like this one as it summarizes everything you need to know
+
+### Day 2 Readings
+#### Read Chapter 1 and 2 on [Hands-on Machine Learning by Auréllien Géron](https://drive.google.com/drive/folders/15angXfk0k3Q0k_ae4VBddBRkl5cExPTS?usp=sharing)
+[![geron](https://images-na.ssl-images-amazon.com/images/I/511IU--e4%2BL._SX258_BO1,204,203,200_.jpg)]((https://drive.google.com/drive/folders/15angXfk0k3Q0k_ae4VBddBRkl5cExPTS?usp=sharing))
+- For convenience, you can [click here for a copy](https://drive.google.com/drive/folders/15angXfk0k3Q0k_ae4VBddBRkl5cExPTS?usp=sharing)
+
+
+Note: This book has hands-on notebook you can fiddle with:   
+
+[Chapter 1 The Machine Learning Landscape](./01_the_machine_learning_landscape.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ageron/handson-ml/blob/master/01_the_machine_learning_landscape.ipynb)
+
+[Chapter 2 End to End Machine Learning Project](./02_end_to_end_machine_learning_project.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ageron/handson-ml/blob/master/02_end_to_end_machine_learning_project.ipynb)
+
+Tip: You can use our `deeplearning` environment in jupyterlab to run all his codes.
+
+#### New Feature: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb) 
+
+1. If you haven't setup your laptop. You can click on [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb) beside each exercise so that you won't have to setup anything. Colab is a free cloud-based Jupyter notebook sponsored by Google.
+
+2. Afterwards, Click File > Save a copy in Drive. So that you can edit and run it, and it is automatically saved in your Google Drive > My Drive > Colab Notebook
+
+3. Lastly, Change/Verify your Runtime. Click Runtime > Change Runtime Type. It should have the ff:   
+    Runtime Type: Python 3   
+    Hardware Accelerator: TPU   
+
+
+#### Watch ThreeBlueOneBrown in youtube, four episodes
+- Click on the images/links below so that you can watch it.
+
+[Episode 1: What is a neural Network](https://youtu.be/aircAruvnKk)    
+[![](http://img.youtube.com/vi/aircAruvnKk/0.jpg)](http://www.youtube.com/watch?v=aircAruvnKk "")
+
+[Episode 2: Gradient Descent](https://youtu.be/IHZwWFHWa-w)    
+[![](http://img.youtube.com/vi/IHZwWFHWa-w/0.jpg)](http://www.youtube.com/watch?v=IHZwWFHWa-w "")
+
+[Episode 3: Backpropagation](https://youtu.be/Ilg3gGewQ5U)   
+[![](http://img.youtube.com/vi/Ilg3gGewQ5U/0.jpg)](http://www.youtube.com/watch?v=Ilg3gGewQ5U "")    
+
+[Episode 4: Backpropagation Calculus](https://youtu.be/tIeHLnjs5U8)    
+[![](http://img.youtube.com/vi/tIeHLnjs5U8/0.jpg)](http://www.youtube.com/watch?v=tIeHLnjs5U8 "")    
