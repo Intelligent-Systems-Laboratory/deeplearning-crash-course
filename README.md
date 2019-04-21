@@ -67,10 +67,12 @@ For today, given your newly equipped concepts and skills. Let's try to look at a
 
 [01 Housing Price Project](01_regression.ipynb)
 
+Questions So Far?
 
+We're done. Congrats! Let's have a break.
 
+If you haven't watched the threeBlueOneBrown videos as stated in day 2 Readings. Please do it during the break.
 
-1. What is the neural network 
 
 ## Old Reference
 ### [Day 1: Data Science and Data Manipulation using Python](day-1/README.md)
