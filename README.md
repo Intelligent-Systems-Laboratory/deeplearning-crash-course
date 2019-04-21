@@ -68,10 +68,27 @@ For today, given your newly equipped concepts and skills. Let's try to look at a
 [01 Housing Price Project](01_regression.ipynb)
 
 Questions So Far?
+Revisiting concepts:
+1. Why do we do Train / Test Split?
+2. What is the meaning of overfit and underfit? What is therefore the Bias/Variance Trade-off?
+3. How do we ensure reproducibility of results? In other words, how do we ensure that we would have the same result when re-run our training?
+
+
+### Revisiting Our Optimizer
+
+[02 Stochastic Gradient Descent](02_sgd.ipynb)
+
+Revisiting Concepts:
+1. What is the meaning of epochs?
+2. How significant is our learning rate?
+3. How do we measure on how "fit" is our best fit line? 
+4. From #3, In general, this is called ____ function.
+
+
 
 We're done. Congrats! Let's have a break.
 
-If you haven't watched the threeBlueOneBrown videos as stated in day 2 Readings. Please do it during the break.
+If you haven't watched the threeBlueOneBrown videos as stated in day 2 Readings. You have time to catch up during the break.
 
 
 ## Old Reference
