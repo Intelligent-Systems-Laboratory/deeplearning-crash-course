@@ -43,6 +43,7 @@ So, I just want to let you know:
 ## Day 2 - Machine Learning and Neural Networks
 
 ### Recap of Reading List:
+<<<<<<< Updated upstream
 
 Let's have a brief exercise.  Click the link below:    
 [Reading Exercise](https://docs.google.com/document/d/1aJrqm4d6oKwl1sIBSjnBMf2bspy99bYt53szzGQHBfE/edit?usp=sharing)
@@ -89,7 +90,10 @@ Revisiting Concepts:
 We're done. Congrats! Let's have a break.
 
 If you haven't watched the threeBlueOneBrown videos as stated in day 2 Readings. You have time to catch up during the break.
+=======
+>>>>>>> Stashed changes
 
+1. What is the neural network 
 
 ## Old Reference
 ### [Day 1: Data Science and Data Manipulation using Python](day-1/README.md)
