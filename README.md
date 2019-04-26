@@ -40,42 +40,40 @@ So, I just want to let you know:
 
 **Carpe Diem!!**
 
-## Day 2 - Machine Learning and Neural Networks
+## Day 3: Convolutional Neural Network
+### Quick Recap
 
-### Recap of Reading List:
+1. What is the purpose of machine learning?
 
-### Neural Network. Multi-Layer Perceptron
+2. What makes neural network special?
 
-Recap: Three Blue One Brown
-- How does Neural Network understand a handwritten digit image?
-- How does he learn the weight?
-- In your own words, explain the process of learning and why is it significant?
-- What happens to a two-layer network when you remove the activation/"squishing" function?
-- In the paradigm of neural network, the nickname of logistic regression is?
+3. Why is making neural network having multiple layers special?
 
-### Big Picture
-Similar to our morning exercise, let's focus on the big picture.
+4. Why is deep learning called deep learning?
 
-[Tensorflow Playground](https://playground.tensorflow.org/)   
-[Understanding Neural Network](https://cloud.google.com/blog/products/gcp/understanding-neural-networks-with-tensorflow-playground)
+5. How do you describe the whole lifecycle of machine learning?
 
-[Test Your Understanding](https://developers.google.com/machine-learning/crash-course/introduction-to-neural-networks/playground-exercises)
+### Neural Network Demo (Pytorch)
 
-### Neural Network in Pytorch
+### Convolutional Neural Network ([Stanford CS231n](http://cs231n.github.io))
 
-This is the part where we would now implement Neural Network
-We start first from numpy then we progress into Pytorch
+[Convolutional Neural Networks: Architectures, Convolution / Pooling Layers](http://cs231n.github.io/convolutional-networks/)    
+layers, spatial arrangement, layer patterns, layer sizing patterns, AlexNet/ZFNet/VGGNet case studies, computational considerations
+     
+      
+[Understanding and Visualizing Convolutional Neural Networks](http://cs231n.github.io/understanding-cnn/)    
+tSNE embeddings, deconvnets, data gradients, fooling ConvNets, human comparisons
+       
+     
+[Transfer Learning and Fine-tuning Convolutional Neural Networks](http://cs231n.github.io/transfer-learning/)
 
-Note we are doing the same thing. But we progressively add features on it.
 
-[Neural Network in Numpy](03_two_layer_net_numpy.ipynb)   
-[Neural Network in Tensor](04_two_layer_net_tensor.ipynb)   
-[Neural Network with Autogradient](05_two_layer_net_autograd.ipynb)   
-[Neural Network with NN Module](07_two_layer_net_module.ipynb)   
-[Neural Network with Optim Module](08_two_layer_net_optim.ipynb)  
-[Neural Network with Custom NN](09_two_layer_net_custom_function)
+Actual Prototyping
 
+[Transfer Learning](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html)
 
 
 ## Old Reference
 ### [Day 1: Data Science and Data Manipulation using Python](day-1/README.md)
+
+### [Day 2: Machine Learning and Neural Networks](day-2/README.md)
