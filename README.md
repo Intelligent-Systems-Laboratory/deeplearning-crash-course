@@ -53,7 +53,6 @@ So, I just want to let you know:
 
 5. How do you describe the whole lifecycle of machine learning?
 
-### Neural Network Demo (Pytorch)
 
 ### Convolutional Neural Network ([Stanford CS231n](http://cs231n.github.io))
 
@@ -67,6 +66,11 @@ tSNE embeddings, deconvnets, data gradients, fooling ConvNets, human comparisons
      
 [Transfer Learning and Fine-tuning Convolutional Neural Networks](http://cs231n.github.io/transfer-learning/)
 
+
+### Neural Network Demo (Pytorch)
+
+
+### Afternoon
 
 Actual Prototyping
 
