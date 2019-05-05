@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "$HOME/anaconda3/envs/deeplearning/bin/python",
+    "python.linting.pylintEnabled": true
+}
