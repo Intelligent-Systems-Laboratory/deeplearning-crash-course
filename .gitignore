@@ -4,3 +4,5 @@
 **/*.pdf
 .vscode
 day-3/logs
+datasets
+**/__pycache__
