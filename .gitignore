@@ -3,6 +3,6 @@
 .DS_Store
 **/*.pdf
 .vscode
-day-3/logs
+**/logs
 datasets
 **/__pycache__

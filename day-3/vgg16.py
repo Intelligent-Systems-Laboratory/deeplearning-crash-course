@@ -40,10 +40,11 @@ class VGG(nn.Module):
     def forward(self, x):
         x = self.pool1(self.conv2(self.conv1(x)))
         x = self.pool2(self.conv4(self.conv3(x)))
-        x = self.pool3(self.conv7(self.conv5(self.conv6(x))))
+        x = self.pool3(self.conv7(self.conv6(self.conv5(x))))
         x = self.pool4(self.conv10(self.conv9(self.conv8(x)))) 
         x = self.pool5(self.conv13(self.conv12(self.conv11(x))))
         x = self.avg_pool(x)
+        x = x.reshape(x.size(0),-1)
         x = self.classifier(x)
         return x
    

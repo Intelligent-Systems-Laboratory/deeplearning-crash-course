@@ -1,7 +1,7 @@
 from sklearn.model_selection import train_test_split
 import shutil
 import os
-
+from PIL import Image
 
 source_dataset_path = "datasets/kagglecatsanddogs/PetImages"
 target_path = "datasets/catsanddogs"
@@ -45,6 +45,19 @@ def is_image_file(filename):
     """
     return has_file_allowed_extension(filename, IMG_EXTENSIONS)
 
+def is_valid_image(filename):
+    if is_image_file(filename):
+        try:
+            img = Image.open(filename)
+            img.verify()
+            return True
+        except (IOError, SyntaxError):
+            print ("Bad file: ", filename)
+            return False
+    else:
+        return False
+    
+
 def find_class(directory):
     classes = [d.name for d in os.scandir(directory) if d.is_dir()]
     classes.sort()
@@ -58,9 +71,9 @@ def make_dataset(directory, class_to_idx, extensions=None):
     directory = os.path.expanduser(directory)
 
     #Check if extension is valid
-    if extensions is not None:
-        def is_valid_file(x):
-            return(has_file_allowed_extension(x,extensions))
+    # if extensions is not None:
+    #     def is_valid_file(x):
+    #         return(has_file_allowed_extension(x,extensions))
 
     for label in class_to_idx.keys():
         full_dir = os.path.join(directory, label)
@@ -70,7 +83,7 @@ def make_dataset(directory, class_to_idx, extensions=None):
         for root, _, files in os.walk(full_dir):
             for fname in sorted(files):
                 full_path = os.path.join(root,fname)
-                if not is_valid_file(full_path):
+                if not is_valid_image(full_path): #TODO: Make it more general file
                     continue
                 images.append(full_path)
                 targets.append(class_to_idx[label])
