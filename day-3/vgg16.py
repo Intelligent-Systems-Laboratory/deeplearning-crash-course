@@ -1,35 +1,36 @@
 import torch
 import torch.nn as nn
-
+from torch.hub import load_state_dict_from_url
 class VGG(nn.Module):
     def __init__(self, num_classes=1000, init_weights=True):
         super(VGG,self).__init__()
-        self.conv1 = nn.Conv2d(3,64,3)
-        self.conv2 = nn.Conv2d(64,64,3)
-        self.pool1 = nn.MaxPool2d(2,2)
-        self.conv3 = nn.Conv2d(64,128,3)
-        self.conv4 = nn.Conv2d(128,128,3)
-        self.pool2 = nn.MaxPool2d(2,2)
-        self.conv5 = nn.Conv2d(128,256,3)
-        self.conv6 = nn.Conv2d(256,256,3)
-        self.conv7 = nn.Conv2d(256,256,3)
-        self.pool3 = nn.MaxPool2d(2,2)
-        self.conv8 = nn.Conv2d(256,512,3)
-        self.conv9 = nn.Conv2d(512,512,3)
-        self.conv10 = nn.Conv2d(512,512,3)
-        self.pool4 = nn.MaxPool2d(2,2)
-        self.conv11 = nn.Conv2d(512,512,3)        
-        self.conv12 = nn.Conv2d(512,512,3)
-        self.conv13 = nn.Conv2d(512,512,3)
-        self.pool5 = nn.MaxPool2d(2,2)
+        self.features = nn.Sequential(
+            nn.Conv2d(3,64, kernel_size=3, padding=1), nn.ReLU(inplace=True),
+            nn.Conv2d(64,64, kernel_size=3, padding=1), nn.ReLU(inplace=True),
+            nn.MaxPool2d(kernel_size=2, stride=2),
+            nn.Conv2d(64,128, kernel_size=3, padding=1), nn.ReLU(inplace=True),
+            nn.Conv2d(128,128, kernel_size=3, padding=1), nn.ReLU(inplace=True),
+            nn.MaxPool2d(kernel_size=2, stride=2),
+            nn.Conv2d(128,256, kernel_size=3, padding=1), nn.ReLU(inplace=True),
+            nn.Conv2d(256,256, kernel_size=3, padding=1), nn.ReLU(inplace=True),
+            nn.Conv2d(256,256, kernel_size=3, padding=1), nn.ReLU(inplace=True),
+            nn.MaxPool2d(kernel_size=2, stride=2),
+            nn.Conv2d(256,512, kernel_size=3, padding=1), nn.ReLU(inplace=True),
+            nn.Conv2d(512,512, kernel_size=3, padding=1), nn.ReLU(inplace=True),
+            nn.Conv2d(512,512, kernel_size=3, padding=1), nn.ReLU(inplace=True),
+            nn.MaxPool2d(kernel_size=2, stride=2),
+            nn.Conv2d(512,512, kernel_size=3, padding=1), nn.ReLU(inplace=True),
+            nn.Conv2d(512,512, kernel_size=3, padding=1), nn.ReLU(inplace=True),
+            nn.Conv2d(512,512, kernel_size=3, padding=1), nn.ReLU(inplace=True),
+            nn.MaxPool2d(kernel_size=2, stride=2))
         
         self.avg_pool = nn.AdaptiveAvgPool2d((7,7))
         self.classifier = nn.Sequential(
             nn.Linear(7*7*512, 4096),
-            nn.ReLU(True),
+            nn.ReLU(inplace=True),
             nn.Dropout(),
             nn.Linear(4096,4096),
-            nn.ReLU(True),
+            nn.ReLU(inplace=True),
             nn.Dropout(),
             nn.Linear(4096,num_classes))
         
@@ -38,11 +39,7 @@ class VGG(nn.Module):
             
         
     def forward(self, x):
-        x = self.pool1(self.conv2(self.conv1(x)))
-        x = self.pool2(self.conv4(self.conv3(x)))
-        x = self.pool3(self.conv7(self.conv6(self.conv5(x))))
-        x = self.pool4(self.conv10(self.conv9(self.conv8(x)))) 
-        x = self.pool5(self.conv13(self.conv12(self.conv11(x))))
+        x = self.features(x)
         x = self.avg_pool(x)
         x = x.reshape(x.size(0),-1)
         x = self.classifier(x)
