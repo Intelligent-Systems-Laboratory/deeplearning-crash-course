@@ -32,9 +32,8 @@ username@PC:/mnt/C/Users/YourUsername/Desktop$
 # Install Pre-requisites Packages
 We need to have the ff packages:
 1. git
-2. hub
-3. wget
-4. anaconda
+2. wget
+3. anaconda
 
 
 
@@ -45,7 +44,7 @@ We need to have the ff packages:
 ```
 2. afterwards, type the ff to install necessary packages:
 ```bash
-$brew install git wget hub
+$brew install git wget
 ```
 3. Download Anaconda (if you haven't installed anaconda)
 ```bash
@@ -59,7 +58,7 @@ $bash ~/anaconda.sh
 #### For Ubuntu/Windows Subsystem
 1. Install the necessary packages. Type your password if prompted:
 ```bash
-$sudo apt install -y git wget hub
+$sudo apt install -y git wget
 ```
 2. Download Anaconda (if you haven't installed anaconda)
 ```bash
